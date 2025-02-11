@@ -58,9 +58,20 @@ The Complaint Registration Portal is an Angular-based web application that allow
 
 ## Output
 
-![Image 5](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20login.png)
-![Image 6](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20portal.png)
-![Image 1](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20bulid.png)
-![Image 2](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20run.png)
-![Image 3](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/login%20page.png)
-![Image 4](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/user%20portal.png)
+1. **Image 1** (Docker Build Command):
+   ![Docker Build](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20bulid.png)
+
+2. **Image 2** (Docker Run Command):
+   ![Docker Run](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20run.png)
+
+3. **Image 3** (Login Page):
+   ![Login Page](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/login%20page.png)
+
+4. **Image 4** (User Portal):
+   ![User Portal](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/user%20portal.png)
+
+5. **Image 5** (Admin Login):
+   ![Admin Login](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20login.png)
+
+6. **Image 6** (Admin Portal):
+   ![Admin Portal](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20portal.png)
