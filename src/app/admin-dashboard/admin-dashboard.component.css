@@ -1,0 +1,79 @@
+.admin-container {
+  max-width: 1000px; /* Increased the max-width for more space */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-container p {
+  font-size: 16px;
+  color: #555;
+}
+
+.admin-container button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-container button:hover {
+  background-color: #2980b9;
+}
+
+.complaints-container {
+  margin-top: 20px;
+}
+
+.complaints-container h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.complaint-table th, .complaint-table td {
+  padding: 20px; /* Increased padding for more space */
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.complaint-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.complaint-table td {
+  color: #555;
+}
+
+.complaint-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.complaint-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+.button-group button {
+  padding: 10px 10px; /* Increased padding for larger buttons */
+  margin-right: 0; /* Remove margin-right as gap will handle spacing */
+}

@@ -1,0 +1,60 @@
+<div class="protected-container">
+  <div class="submit-complaint">
+    <h2>User Dashboard</h2>
+    <p>Welcome to the user dashboard. Only authenticated users can see this.</p>
+    <button (click)="logout()">Logout</button>
+
+    <form (ngSubmit)="registerComplaint()">
+      <div>
+        <br>
+        <label for="title">Title</label>
+        <input id="title" [(ngModel)]="complaint.title" name="title" required />
+      </div>
+      <div>
+        <label for="description">Description</label>
+        <textarea id="description" [(ngModel)]="complaint.description" name="description" required></textarea>
+      </div>
+      <button type="submit">Submit Complaint</button>
+    </form>
+  </div>
+
+  <div class="complaints-container">
+    <h3>Your Complaints</h3>
+    <div *ngIf="complaints.length > 0" class="complaint-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let complaint of complaints" class="complaint-item">
+            <td>{{ complaint.title }}</td>
+            <td>{{ complaint.description }}</td>
+            <td>{{ complaint.status }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div *ngIf="complaints.length === 0">
+      <p>No complaints to show.</p>
+    </div>
+  </div>
+
+  <div class="notifications-container">
+    <h3>Notifications</h3>
+    <div *ngIf="notifications.length > 0">
+      <ul>
+        <li *ngFor="let notification of notifications">
+          {{ notification }}
+        </li>
+      </ul>
+    </div>
+    <div *ngIf="notifications.length === 0">
+      <p class="empty-message">No new notifications.</p>
+    </div>
+  </div>
+  
+</div>
