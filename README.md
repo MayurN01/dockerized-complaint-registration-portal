@@ -17,7 +17,7 @@ The Complaint Registration Portal is an Angular-based web application that allow
 - Local Storage (to store complaints)
 
 ### Login User
-1. Log in as an normal user (default user credentials: username `user`, password `user`).
+1. Log in as a normal user (default user credentials: username `user`, password `user`).
 
 ### Submitting a Complaint
 1. After logging in, navigate to the dashboard.
@@ -44,16 +44,23 @@ The Complaint Registration Portal is an Angular-based web application that allow
     npm install
     ```
 
-3. Run the application:
-    ```bash
-    ng serve --open
-    ```
+3. **Docker Setup**:
+    - Build the Docker image:
+      ```bash
+      sudo docker build -t my-login-app .
+      ```
+    - Run the Docker container:
+      ```bash
+      sudo docker run -d -p 8080:80 my-login-app
+      ```
 
-4. Open your browser and navigate to `http://localhost:4200`.
+4. Open your browser and navigate to `http://localhost:8080`.
 
 ## Output
 
-![Screenshot (33)](https://github.com/abhinavnandekar27/complaint-registration-portal/assets/167284154/6b4e63a2-d36a-4ce3-b52e-38f870191a69)
-![Screenshot (35)](https://github.com/abhinavnandekar27/complaint-registration-portal/assets/167284154/c8370d07-081f-4db6-876e-d15bbd1d1951)
-![Screenshot (36)](https://github.com/abhinavnandekar27/complaint-registration-portal/assets/167284154/03046c50-aedd-4ed7-802c-adb0238a2d9b)
-![Screenshot (37)](https://github.com/abhinavnandekar27/complaint-registration-portal/assets/167284154/2c128de7-26fe-4820-9055-8872a800ff97)
+![Image 5](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20login.png)
+![Image 6](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/admin%20portal.png)
+![Image 1](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20bulid.png)
+![Image 2](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/docker%20run.png)
+![Image 3](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/login%20page.png)
+![Image 4](https://github.com/MayurN01/dockerized-complaint-registration-portal/blob/main/images/user%20portal.png)
